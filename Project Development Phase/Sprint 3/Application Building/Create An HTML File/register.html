@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet"
+        href="{{url_for('static',filename='css/register.css')}}" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="register">
+                <h2>REGISTER HERE</h2>
+                <form id="register" method="post">
+                    <label>First Name : </label>
+                    <br>
+                    <input type="text" name="fname"
+                    id="name" placeholder="Enter Your First Name">
+                    <br><br>
+                    <label>Last Name : </label>
+                    <br>
+                    <input type="text" name="lname"
+                    id="name" placeholder="Enter Your last Name">
+                    <br><br>
+                    <label>Email : </label>
+                    <br>
+                    <input type="email" name="email"
+                    id="name" placeholder="Enter Your Valid Email">
+                    <br><br>
+                    <label>Password : </label> : </label>
+                    <br>
+                    <input type="password" name="" id="name"
+                    placeholder="Enter Your Password">
+                    <br><br>
+                    <label>Confrim Password : </label>
+                    <input type="password" name="" id="name"
+                    placeholder="Re-Enter your Password">
+                    <br><br>
+                    <input type="submit" value="Submit"
+                    name="submit" id="Submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
