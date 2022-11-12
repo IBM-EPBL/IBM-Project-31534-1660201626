@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/Web.css')}}">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="box">
+        <input type="text" id="year" name="year" placeholder="Enter past 10 days price"/> 
+        </div>
+        <br>
+        <div class= "prediction" action="/login" method='post'>
+            <a href="{{url_for('login')}}">PREDICT</a>
+        </div>
+    </div>
+</header>            
+</body>
+</html>
