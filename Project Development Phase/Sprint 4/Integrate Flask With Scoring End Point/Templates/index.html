@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">       
+</head>
+<body>
+    <header>
+        <div>
+                <ul class="menu">
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('home')}}">About</a></li>
+                </ul>
+             </div>
+        <div class="banner-text">
+            <h1>CRUDE OILL<span> PRICE PREDICTION</span></h1>
+            <p>Crude oil is composed of hydrocarbons, which are mainly hydrogen (about 13% by weight) and carbon (about 85%). Other elements such as nitrogen (about 0.5%), sulfur (0.5%), oxygen (1%), and metals such as iron, nickel, and copper (less than 0.1%) can also be mixed in with the hydrocarbons in small amounts.</p>
+            <a href="{{url_for('predict')}}">PREDICT</a>
+        </div>
+    </header>
+
+</body>
+</html>
